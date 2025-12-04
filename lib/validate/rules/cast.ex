@@ -45,7 +45,6 @@ defmodule Validate.Rules.Cast do
     end
   end
 
-
   defp convert!(:float, value) do
     case Util.get_type(value) do
       "integer" ->
